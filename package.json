@@ -1,0 +1,21 @@
+{
+  "name": "Nettetris",
+  "version": "0.0.1",
+  "description": "Tetris multiplayer app",
+  "engines": {
+    "npm": "*",
+    "node": "*"
+  },
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-handlebars": "*"
+  },
+  "devDependencies": {
+    "express": "*"
+  }
+}

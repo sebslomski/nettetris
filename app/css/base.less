@@ -1,0 +1,24 @@
+/*
+ * Only HTML elements as css selectors
+ * */
+
+* {
+    .box-sizing(border-box);
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    .user-select(none);
+
+    &, & textarea {
+        font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+        line-height: 1.5;
+        font-size: 14px;
+        -webkit-font-smoothing: antialiased;
+        color: #333;
+    }
+}

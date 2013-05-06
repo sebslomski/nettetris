@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title><%= data.title %></title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="HandheldFriendly" content="True">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="stylesheet" type="text/css" href="<%= data.staticUrl %>/build.css?<%= now %>">
+        <script src="<%= data.staticUrl %>/build.js?<%= now %>"></script>
+
+        <script>
+            $(function() {
+                NT.start(<%= json %>);
+            });
+        </script>
+    </head>
+    <body>
+        <div class="nt-viewport"></div>
+    </body>
+</html>
