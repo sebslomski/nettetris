@@ -13,3 +13,12 @@
 ## Sonstiges
 - vorerst ohne login
 - http://tetris.wikia.com/wiki/Tetris_Guideline
+
+
+## Usage
+- zuerst nodejs und npm installieren
+- dann `npm install` im working dir
+- `node server.js`
+
+### zum kompilen vom frontend:
+- `grunt`
