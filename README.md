@@ -12,3 +12,4 @@
 
 ## Sonstiges
 - vorerst ohne login
+- http://tetris.wikia.com/wiki/Tetris_Guideline
