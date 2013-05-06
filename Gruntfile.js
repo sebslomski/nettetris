@@ -22,6 +22,8 @@ module.exports = function(grunt) {
             ],
             src: [
                 'app/js/src/App.js',
+                'app/js/src/Colors.js',
+                'app/js/src/Shapes.js',
                 'app/js/src/**/*.js'
             ],
             less: 'app/css/main.less',
