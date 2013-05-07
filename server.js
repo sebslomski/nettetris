@@ -11,7 +11,7 @@ app.configure(function() {
   app.use(app.router);
 });
 
-port = 9000;
+port = process.env.PORT || 9000;
 
 app.listen(port, function() {
   return console.log('Listening on ' + port);
