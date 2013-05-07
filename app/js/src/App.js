@@ -9,7 +9,7 @@ var NT = null;
         el: '.nt-viewport',
         options: {
             SQUARE_SIZE: 40,
-            ROWS: 22,
+            ROWS: 10,
             COLS: 10
         },
 
